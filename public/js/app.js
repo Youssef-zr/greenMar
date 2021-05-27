@@ -2197,35 +2197,135 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       loading: false,
       messages: {
         success: {
-          msg: "",
+          msg: '',
           status: false
         },
         error: {
-          msg: "",
+          msg: '',
           status: false
         }
       },
       form: new Form({
-        name: "",
-        email: "",
-        phone: "",
-        subject: "",
-        msg: ""
+        name: '',
+        email: '',
+        phone: '',
+        subject: '',
+        msg: ''
       })
     };
   },
   methods: {
-    sendEmail: function sendEmail() {
+    sendEmail: function sendEmail(e) {
       var _this = this;
 
+      e.preventDefault();
       this.loading = true;
-      this.form.post("/api/green/sendEmail").then(function (res) {
+      this.form.post('/api/green/sendEmail').then(function (res) {
         _this.messages.success.msg = res.data.success;
         _this.messages.success.status = true;
         setTimeout(function () {
@@ -2236,7 +2336,7 @@ __webpack_require__.r(__webpack_exports__);
 
         _this.form.reset();
 
-        _this.RequestStatus = false;
+        _this.loading = false;
       })["catch"](function (err) {
         _this.loading = false;
 
@@ -2244,17 +2344,15 @@ __webpack_require__.r(__webpack_exports__);
           _this.messages.error.status = true;
 
           if (err.response.status == 422) {
-            _this.messages.error.msg = err.response.data.message;
+            _this.messages.error.msg = 'La donnée est invalide !!';
           } else if (err.response.status == 500) {
-            _this.messages.error.msg = "Server Error Please Try Again Later";
+            _this.messages.error.msg = 'Erreur Du Serveur Veuillez Réessayer Plus Tard !!';
           }
 
           setTimeout(function () {
             _this.messages.error.status = false;
           }, 3000);
         }
-
-        _this.RequestStatus = false;
       });
     }
   }
@@ -2787,7 +2885,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".default-form-area .overlay {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: #8ec63f91;\n  z-index: 4;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.default-form-area .overlay i {\n  color: #fff;\n}", ""]);
+exports.push([module.i, ".default-form-area .overlay {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: #8ec63f91;\n  z-index: 4;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.default-form-area .overlay i {\n  color: #fff;\n}\n.messages {\n  position: fixed;\n  top: 10px;\n  right: 10px;\n  z-index: 9999999;\n}\n.messages .alert-success {\n  color: #fff;\n  background: #8dc63f;\n}\n.messages .alert-danger {\n  color: #fff;\n  background: #ee5253;\n}\n.messages .alert {\n  padding: 8px 8px 10px !important;\n}\n.has-error .form-control {\n  border-color: #ee5253 !important;\n}\n.has-error .checkbox,\n.has-error .checkbox-inline,\n.has-error .control-label,\n.has-error .help-block,\n.has-error .radio,\n.has-error .radio-inline,\n.has-error.checkbox label,\n.has-error.checkbox-inline label,\n.has-error.radio label,\n.has-error.radio-inline label {\n  color: #ee5253 !important;\n}", ""]);
 
 // exports
 
@@ -3244,6 +3342,25 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 // module
 exports.push([module.i, "\n.section-title {\r\n  margin-bottom: 20px;\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/recycling2.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/recycling2.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n@media (max-width: 768px) {\n.recycle-img {\r\n    width: 200px !important;\r\n    margin: 0 auto !important;\n}\n}\r\n", ""]);
 
 // exports
 
@@ -23744,6 +23861,36 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/recycling2.vue?vue&type=style&index=0&lang=css&":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/recycling2.vue?vue&type=style&index=0&lang=css& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--6-2!../../../../node_modules/vue-loader/lib??vue-loader-options!./recycling2.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/recycling2.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/lib/addStyles.js":
 /*!****************************************************!*\
   !*** ./node_modules/style-loader/lib/addStyles.js ***!
@@ -28142,7 +28289,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "section-title center" }, [
           _c("h2", { staticClass: "mobile-font text-capitalize" }, [
-            _vm._v("Nous connetre")
+            _vm._v("Nous Connaître")
           ]),
           _vm._v(" "),
           _c("p", { staticClass: "text-capitalize" }, [
@@ -28362,7 +28509,7 @@ var staticRenderFns = [
                     color: "#fff"
                   }
                 },
-                [_vm._v("Décrets environnementaux")]
+                [_vm._v("Décrets Environnementaux")]
               )
             ]
           ),
@@ -28387,7 +28534,10 @@ var staticRenderFns = [
                               "http://www.environnement.gov.ma/PDFs/BO_PUBLICATION_DECHETS_DANGEREUX.pdf"
                           }
                         },
-                        [_vm._v("telecharger")]
+                        [
+                          _c("i", { staticClass: "fa fa-download" }),
+                          _vm._v(" Telecharger")
+                        ]
                       )
                     ]
                   )
@@ -28412,7 +28562,10 @@ var staticRenderFns = [
                               "http://www.environnement.gov.ma/images/Mde_PDFs/Fr/Actualisation_Cadre_Legislatif_05082016/6_Loi_28_00_relative_%C3%A0_la_Gestion_et_Elimination_des_D%C3%A9chets.pdf"
                           }
                         },
-                        [_vm._v("telecharger")]
+                        [
+                          _c("i", { staticClass: "fa fa-download" }),
+                          _vm._v(" Telecharger")
+                        ]
                       )
                     ]
                   )
@@ -28437,7 +28590,10 @@ var staticRenderFns = [
                               "http://www.environnement.gov.ma/PDFs/loi_cadre_fr.pdf"
                           }
                         },
-                        [_vm._v("telecharger")]
+                        [
+                          _c("i", { staticClass: "fa fa-download" }),
+                          _vm._v(" Telecharger")
+                        ]
                       )
                     ]
                   )
@@ -28680,7 +28836,7 @@ var render = function() {
               "li",
               [
                 _c("router-link", { attrs: { to: "/contact" } }, [
-                  _vm._v("contacter")
+                  _vm._v("Contactez")
                 ])
               ],
               1
@@ -28711,12 +28867,6 @@ var render = function() {
                     id: "contact-form",
                     name: "contact_form",
                     novalidate: ""
-                  },
-                  on: {
-                    submit: function($event) {
-                      $event.preventDefault()
-                      return _vm.sendEmail($event)
-                    }
                   }
                 },
                 [
@@ -28990,16 +29140,6 @@ var render = function() {
                       { staticClass: "col-md-12 col-sm-12 col-xs-12" },
                       [
                         _c("div", { staticClass: "form-group center" }, [
-                          _c("input", {
-                            staticClass: "form-control",
-                            attrs: {
-                              id: "form_botcheck",
-                              name: "form_botcheck",
-                              type: "hidden",
-                              value: ""
-                            }
-                          }),
-                          _vm._v(" "),
                           _c(
                             "button",
                             {
@@ -29007,7 +29147,11 @@ var render = function() {
                               attrs: { type: "submit" },
                               on: { click: _vm.sendEmail }
                             },
-                            [_vm._v("Envoyer Message")]
+                            [
+                              _vm._v(
+                                "\n                      Envoyer Message\n                    "
+                              )
+                            ]
                           )
                         ])
                       ]
@@ -29023,7 +29167,21 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(6)
+    _vm._m(6),
+    _vm._v(" "),
+    _c("div", { staticClass: "messages" }, [
+      _vm.messages.success.status
+        ? _c("div", { staticClass: "alert alert-success" }, [
+            _vm._v("\n      " + _vm._s(_vm.messages.success.msg) + "\n    ")
+          ])
+        : _vm._e(),
+      _vm._v(" "),
+      _vm.messages.error.status
+        ? _c("div", { staticClass: "alert alert-danger" }, [
+            _vm._v("\n      " + _vm._s(_vm.messages.error.msg) + "\n    ")
+          ])
+        : _vm._e()
+    ])
   ])
 }
 var staticRenderFns = [
@@ -29039,7 +29197,9 @@ var staticRenderFns = [
       },
       [
         _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "box" }, [_c("h1", [_vm._v("contacter")])])
+          _c("div", { staticClass: "box" }, [
+            _c("h1", [_vm._v("contacter nous")])
+          ])
         ])
       ]
     )
@@ -29057,7 +29217,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("p", [
             _vm._v(
-              "Veuillez trouver ci-dessous les coordonnées et contactez-nous aujourd'hui!"
+              "\n          Veuillez trouver ci-dessous les coordonnées et contactez-nous\n          aujourd'hui!\n        "
             )
           ])
         ]),
@@ -29073,8 +29233,8 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "text-holder" }, [
-                  _c("h3", { staticClass: "text-lower" }, [
-                    _vm._v(" ADDRESSE ")
+                  _c("h3", { staticClass: "text-capitalize" }, [
+                    _vm._v("Adresse")
                   ]),
                   _vm._v(" "),
                   _c("span", { staticClass: "border" }),
@@ -29097,7 +29257,9 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "text-holder" }, [
-                  _c("h3", { staticClass: "text-lower" }, [_vm._v("E-MAIL")]),
+                  _c("h3", { staticClass: "text-capitalize" }, [
+                    _vm._v("E-MAIL")
+                  ]),
                   _vm._v(" "),
                   _c("span", { staticClass: "border" }),
                   _vm._v(" "),
@@ -29117,8 +29279,8 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "text-holder" }, [
-                  _c("h3", { staticClass: "text-lower" }, [
-                    _vm._v("Heures de travail")
+                  _c("h3", { staticClass: "text-capitalize" }, [
+                    _vm._v("Horaire De Travail")
                   ]),
                   _vm._v(" "),
                   _c("span", { staticClass: "border" }),
@@ -29139,7 +29301,9 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "text-holder" }, [
-                  _c("h3", { staticClass: "text-lower" }, [_vm._v("SUPPORT")]),
+                  _c("h3", { staticClass: "text-capitalize" }, [
+                    _vm._v("Support")
+                  ]),
                   _vm._v(" "),
                   _c("span", { staticClass: "border" }),
                   _vm._v(" "),
@@ -29157,7 +29321,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("label", { attrs: { for: "name" } }, [
-      _vm._v("Nom "),
+      _vm._v("\n                      Nom\n                      "),
       _c("span", { staticClass: "text-danger" }, [_vm._v("*")])
     ])
   },
@@ -29166,7 +29330,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("label", { attrs: { for: "phone" } }, [
-      _vm._v("Télephone "),
+      _vm._v("\n                      Télephone\n                      "),
       _c("span", { staticClass: "text-danger" }, [_vm._v("*")])
     ])
   },
@@ -29175,7 +29339,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("label", { attrs: { for: "email" } }, [
-      _vm._v("Email "),
+      _vm._v("\n                      Email\n                      "),
       _c("span", { staticClass: "text-danger" }, [_vm._v("*")])
     ])
   },
@@ -29212,7 +29376,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "text-center" }, [
           _c("h4", { staticClass: "mobile-font-18" }, [
             _vm._v(
-              "Contactez-nous pour plus de précisions et de conseils sur nos services"
+              "\n          Contactez-nous pour plus de précisions et de conseils sur nos\n          services\n        "
             )
           ])
         ])
@@ -29730,7 +29894,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "col-md-3 col-sm-6 col-x-12" }, [
             _c("div", { staticClass: "service-item center" }, [
               _c("div", { staticClass: "icon-box" }, [
-                _c("span", { staticClass: "icon-tool" })
+                _c("span", { staticClass: "fa fa-check-square" })
               ]),
               _vm._v(" "),
               _c("h5", { staticStyle: { "margin-bottom": "5px" } }, [
@@ -29766,7 +29930,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "col-md-3 col-sm-6 col-x-12" }, [
             _c("div", { staticClass: "service-item center" }, [
               _c("div", { staticClass: "icon-box" }, [
-                _c("span", { staticClass: "icon-deer" })
+                _c("span", { staticClass: "fa fa-shield" })
               ]),
               _vm._v(" "),
               _c("h5", { staticStyle: { "margin-bottom": "5px" } }, [
@@ -29816,7 +29980,7 @@ var staticRenderFns = [
                     ]),
                     _vm._v(" "),
                     _c("h4", { staticStyle: { "margin-bottom": "15px" } }, [
-                      _vm._v("ADDRESSE")
+                      _vm._v("Adresse")
                     ]),
                     _vm._v(" "),
                     _c(
@@ -29849,7 +30013,7 @@ var staticRenderFns = [
                     ]),
                     _vm._v(" "),
                     _c("h4", { staticStyle: { "margin-bottom": "15px" } }, [
-                      _vm._v("E-MAIL")
+                      _vm._v("E-Mail")
                     ]),
                     _vm._v(" "),
                     _c(
@@ -29882,7 +30046,7 @@ var staticRenderFns = [
                     ]),
                     _vm._v(" "),
                     _c("h4", { staticStyle: { "margin-bottom": "15px" } }, [
-                      _vm._v("HEURES DU TRAVAIL")
+                      _vm._v("Horaire De Travail")
                     ]),
                     _vm._v(" "),
                     _c(
@@ -29915,7 +30079,7 @@ var staticRenderFns = [
                     ]),
                     _vm._v(" "),
                     _c("h4", { staticStyle: { "margin-bottom": "15px" } }, [
-                      _vm._v("SUPPORT")
+                      _vm._v("Support")
                     ]),
                     _vm._v(" "),
                     _c(
@@ -30430,7 +30594,7 @@ var render = function() {
             _c(
               "router-link",
               { staticClass: "thm-btn style-3", attrs: { to: "/contact" } },
-              [_vm._v("CONTACTEZ-NOUS")]
+              [_vm._v("\n          CONTACTEZ-NOUS\n        ")]
             )
           ],
           1
@@ -30495,7 +30659,7 @@ var staticRenderFns = [
                       _c("div", { staticClass: "img-box mb-20" }, [
                         _c("img", {
                           staticClass: "img-responsive mb-20 w-100",
-                          attrs: { src: "images/recyling/1.jpg", alt: "" }
+                          attrs: { src: "images/recyling/6.jpg", alt: "" }
                         })
                       ])
                     ]),
@@ -30526,7 +30690,7 @@ var staticRenderFns = [
                       _c("div", { staticClass: "img-box mb-20" }, [
                         _c("img", {
                           staticClass: "img-responsive mb-20 w-100",
-                          attrs: { src: "images/recyling/2.jpg", alt: "" }
+                          attrs: { src: "images/recyling/7.jpg", alt: "" }
                         })
                       ])
                     ]),
@@ -30565,8 +30729,8 @@ var staticRenderFns = [
                   _c("div", { staticClass: "row" }, [
                     _c("div", { staticClass: "col-sm-4 mb-sm-80" }, [
                       _c("img", {
-                        staticClass: "img-responsive mb-20 w-100",
-                        attrs: { src: "images/recyling/5.png", alt: "" }
+                        staticClass: "img-responsive mb-20 w-100 recycle-img",
+                        attrs: { src: "images/recyling/5.png", alt: "img" }
                       })
                     ]),
                     _vm._v(" "),
@@ -48965,14 +49129,16 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _recycling2_vue_vue_type_template_id_4dacea98___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./recycling2.vue?vue&type=template&id=4dacea98& */ "./resources/js/components/pages/recycling2.vue?vue&type=template&id=4dacea98&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _recycling2_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./recycling2.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/pages/recycling2.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 var script = {}
 
 
+
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   script,
   _recycling2_vue_vue_type_template_id_4dacea98___WEBPACK_IMPORTED_MODULE_0__["render"],
   _recycling2_vue_vue_type_template_id_4dacea98___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -48987,6 +49153,22 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 if (false) { var api; }
 component.options.__file = "resources/js/components/pages/recycling2.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/recycling2.vue?vue&type=style&index=0&lang=css&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/components/pages/recycling2.vue?vue&type=style&index=0&lang=css& ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_recycling2_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader!../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--6-2!../../../../node_modules/vue-loader/lib??vue-loader-options!./recycling2.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/recycling2.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_recycling2_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_recycling2_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_recycling2_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_recycling2_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
 
 /***/ }),
 
@@ -49079,8 +49261,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\xampp\greenMar\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\xampp\greenMar\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\greenMar\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\greenMar\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

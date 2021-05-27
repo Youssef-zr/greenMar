@@ -258,7 +258,7 @@
           <div class="col-md-3 col-sm-6 col-x-12">
             <div class="service-item center">
               <div class="icon-box">
-                <span class="icon-tool"></span>
+                <span class="fa fa-check-square"></span>
               </div>
               <h5 style="margin-bottom: 5px;">CONFORMITÉ RÉGLEMENTAIRE</h5>
               <p>Un Processus conforme à la réglementation en vigueur.</p>
@@ -281,7 +281,7 @@
           <div class="col-md-3 col-sm-6 col-x-12">
             <div class="service-item center">
               <div class="icon-box">
-                <span class="icon-deer"></span>
+                <span class="fa fa-shield"></span>
               </div>
               <h5 style="margin-bottom: 5px;">SÉCURITÉ</h5>
               <p>La sécurité des personnels est notre priorité.</p>
@@ -308,7 +308,7 @@
             >
               <div class="item">
                 <div class="icon"><i class="icon-signs2"></i></div>
-                <h4 style="margin-bottom: 15px;">ADDRESSE</h4>
+                <h4 style="margin-bottom: 15px;">Adresse</h4>
                 <h5 class="counter-title" style="font-size: 16px;">
                   5, AVENUE IBNOU TACHFINE
                 </h5>
@@ -322,7 +322,7 @@
             >
               <div class="item">
                 <div class="icon"><i class="icon-e-mail-envelope"></i></div>
-                <h4 style="margin-bottom: 15px;">E-MAIL</h4>
+                <h4 style="margin-bottom: 15px;">E-Mail</h4>
                 <h5 class="counter-title" style="font-size: 16px;">
                   CONTACT@GREENMAR.MA
                 </h5>
@@ -336,7 +336,7 @@
             >
               <div class="item">
                 <div class="icon"><i class="icon-clock"></i></div>
-                <h4 style="margin-bottom: 15px;">HEURES DU TRAVAIL</h4>
+                <h4 style="margin-bottom: 15px;">Horaire De Travail</h4>
                 <h5 class="counter-title" style="font-size: 16px;">
                   LUNDI-SAMEDI, 08H- 18H
                 </h5>
@@ -350,7 +350,7 @@
             >
               <div class="item">
                 <div class="icon"><i class="icon-people-1"></i></div>
-                <h4 style="margin-bottom: 15px;">SUPPORT</h4>
+                <h4 style="margin-bottom: 15px;">Support</h4>
                 <h5 class="counter-title" style="font-size: 16px;">
                   +212 663 457 107
                 </h5>

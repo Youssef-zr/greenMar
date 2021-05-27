@@ -18,7 +18,12 @@
         <div class="pull-left">
           <ul class="list-inline link-list">
             <li>
-              <router-link to="/"><i class="fa fa-home" style="color:#333 !important;font-size:20px !important"></i></router-link>
+              <router-link to="/">
+                <i
+                  class="fa fa-home"
+                  style="color: #333 !important; font-size: 20px !important;"
+                ></i>
+              </router-link>
             </li>
             <li>
               <router-link to="/service">Service</router-link>
@@ -46,7 +51,7 @@
                 <div class="col-md-5 col-sm-5 col-xs-12">
                   <div class="img-box mb-20">
                     <img
-                      src="images/recyling/1.jpg"
+                      src="images/recyling/6.jpg"
                       alt=""
                       class="img-responsive mb-20 w-100"
                     />
@@ -71,7 +76,7 @@
                 <div class="col-md-5 col-sm-5 col-xs-12">
                   <div class="img-box mb-20">
                     <img
-                      src="images/recyling/2.jpg"
+                      src="images/recyling/7.jpg"
                       alt=""
                       class="img-responsive mb-20 w-100"
                     />
@@ -100,8 +105,8 @@
                 <div class="col-sm-4 mb-sm-80">
                   <img
                     src="images/recyling/5.png"
-                    alt=""
-                    class="img-responsive mb-20 w-100"
+                    alt="img"
+                    class="img-responsive mb-20 w-100 recycle-img"
                   />
                 </div>
                 <div class="col-sm-8">
@@ -174,9 +179,20 @@
           </h4>
         </div>
         <div class="float_right">
-          <router-link to="/contact" class="thm-btn style-3">CONTACTEZ-NOUS</router-link>
+          <router-link to="/contact" class="thm-btn style-3">
+            CONTACTEZ-NOUS
+          </router-link>
         </div>
       </div>
     </section>
   </div>
 </template>
+
+<style lang="css">
+@media (max-width: 768px) {
+  .recycle-img {
+    width: 200px !important;
+    margin: 0 auto !important;
+  }
+}
+</style>

@@ -3,28 +3,40 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Mail\sendMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Artisan;
 
 class GreenController extends Controller
 {
-    public function sendEmail(Request $request){
-        $rules =[
-            'name'=>'required',
-            "email"=>"required|email|string",
-            "phone"=>'required|min:10|max:12',
-            'subject'=>'min:10|max:120',
-            "msg"=>'min:10|max:300'
+    public function sendEmail(Request $request)
+    {
+        $rules = [
+            'name' => 'required',
+            "email" => "required|email|string",
+            "phone" => 'required|min:10|max:12',
+            'subject' => 'min:5|max:120',
+            "msg" => 'min:5|max:300',
         ];
 
         $niceNames = [
-            'name'=>'nom',
-            'email'=>'email adress',
-            'phone'=>'telephone',
-            'subject'=>'sujet',
-            'msg'=>'message'
+            'name' => 'nom',
+            'email' => 'email adress',
+            'phone' => 'telephone',
+            'subject' => 'sujet',
+            'msg' => 'message',
         ];
 
-        $data = $this->validate($request,$rules,[],$niceNames);
+        dispatch(function () {
+            Artisan::call('cache:clear');
+            Artisan::call('config:clear');
+        });
+
+        $data = $this->validate($request, $rules, [], $niceNames);
+
+        Mail::to('yn-neinaa@hotmail.com')->send(new sendMail($data));
+        return response()->json(['success' => "Le message a été envoyé avec succès ^_^"]);
 
     }
 }

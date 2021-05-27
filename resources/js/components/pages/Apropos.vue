@@ -27,7 +27,7 @@
     <section class="about sec-padd2 sec-padd-mobile">
         <div class="container">
             <div class="section-title center">
-                <h2 class="mobile-font text-capitalize">Nous connetre</h2>
+                <h2 class="mobile-font text-capitalize">Nous Connaître</h2>
                 <p class="text-capitalize">ENGAGER DANS UNE DÉMARCHE DE DÉVELOPPEMENT DURABLE ET ÉCOLOGIQUE.</p>
             </div>
             <div class="row">
@@ -146,14 +146,14 @@
     <section class="clients-section sec-padd sec-padd-mobile no-border">
         <div class="container">
             <div class="section-title center" style="margin-bottom: 20px;">
-                <h2 class="text-center mobile-font text-capitalize" style="padding:8px;background:#8dc63f;color:#fff">Décrets environnementaux</h2>
+                <h2 class="text-center mobile-font text-capitalize" style="padding:8px;background:#8dc63f;color:#fff">Décrets Environnementaux</h2>
             </div>
             <div class="row">
                 <div class="col-sm-12">
                     <ul class="list-group">
-                        <li class="list-group-item text-dark">Décret relatif à la gestion des déchets dangereux. <br> <span class="label label-success d-inline-block"><a href="http://www.environnement.gov.ma/PDFs/BO_PUBLICATION_DECHETS_DANGEREUX.pdf" class="text-white">telecharger</a></span></li>
-                        <li class="list-group-item text-dark">Loi n° 28-00 relative à la gestion des déchets et à leur élimination  <br> <span class="label label-success d-inline-block"><a href="http://www.environnement.gov.ma/images/Mde_PDFs/Fr/Actualisation_Cadre_Legislatif_05082016/6_Loi_28_00_relative_%C3%A0_la_Gestion_et_Elimination_des_D%C3%A9chets.pdf" class="text-white">telecharger</a></span></li>
-                        <li class="list-group-item text-dark">LOI-CADRE N° 99-12 PORTANT CHARTE NATIONALE DE L’ENVIRONNEMENT ET DU DEVELOPPEMENT DURABLE  <br> <span class="label label-success d-inline-block"><a href="http://www.environnement.gov.ma/PDFs/loi_cadre_fr.pdf" class="text-white">telecharger</a></span></li>
+                        <li class="list-group-item text-dark">Décret relatif à la gestion des déchets dangereux. <br> <span class="label label-success d-inline-block"><a href="http://www.environnement.gov.ma/PDFs/BO_PUBLICATION_DECHETS_DANGEREUX.pdf" class="text-white"><i class="fa fa-download"></i> Telecharger</a></span></li>
+                        <li class="list-group-item text-dark">Loi n° 28-00 relative à la gestion des déchets et à leur élimination  <br> <span class="label label-success d-inline-block"><a href="http://www.environnement.gov.ma/images/Mde_PDFs/Fr/Actualisation_Cadre_Legislatif_05082016/6_Loi_28_00_relative_%C3%A0_la_Gestion_et_Elimination_des_D%C3%A9chets.pdf" class="text-white"><i class="fa fa-download"></i> Telecharger</a></span></li>
+                        <li class="list-group-item text-dark">LOI-CADRE N° 99-12 PORTANT CHARTE NATIONALE DE L’ENVIRONNEMENT ET DU DEVELOPPEMENT DURABLE  <br> <span class="label label-success d-inline-block"><a href="http://www.environnement.gov.ma/PDFs/loi_cadre_fr.pdf" class="text-white"><i class="fa fa-download"></i> Telecharger</a></span></li>
                     </ul> 
                 </div>
             </div>
