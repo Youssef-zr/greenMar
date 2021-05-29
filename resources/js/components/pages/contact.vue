@@ -358,6 +358,17 @@
 
 <script>
 export default {
+  metaInfo: {
+    title: 'GreenMar Environnement',
+    titleTemplate: '%s | Contact',
+    meta: [
+      {
+        hid: 'descriptionContact',
+        name: 'description',
+        content: 'GreenMar Environnement,contact',
+      },
+    ],
+  },
   data() {
     return {
       loading: false,

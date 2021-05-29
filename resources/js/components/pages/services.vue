@@ -169,3 +169,20 @@
       </section>
 </div>
 </template>
+
+
+<script>
+export default {
+  metaInfo: {
+    title: 'GreenMar Environnement',
+    titleTemplate: '%s | Services',
+    meta: [
+      {
+        hid: 'descriptionServices',
+        name: 'description',
+        content: 'GreenMar Environnement,Services',
+      },
+    ],
+  },
+}
+</script>

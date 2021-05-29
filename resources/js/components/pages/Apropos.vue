@@ -280,3 +280,19 @@
         color:#333 !important
     }
 </style>
+
+<script>
+export default {
+     metaInfo: {
+    title: 'GreenMar Environnement',
+    titleTemplate: '%s | A Propos',
+    meta: [
+      {
+        hid: 'descriptionPropos',
+        name: 'description',
+        content: 'GreenMar Environnement,A Propos',
+      },
+    ],
+  },
+}
+</script>

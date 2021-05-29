@@ -415,6 +415,17 @@
 
 <script>
 export default {
+   metaInfo: {
+    title: 'GreenMar Environnement',
+    titleTemplate: '%s',
+    meta: [
+      {
+        hid: 'descriptionHome',
+        name: 'description',
+        content: 'GreenMar Environnement,Home',
+      },
+    ],
+  },
   mounted() {
       setTimeout(()=>{
           this.revolutionSliderActiver()

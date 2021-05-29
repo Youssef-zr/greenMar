@@ -196,3 +196,20 @@
   }
 }
 </style>
+
+
+<script>
+export default {
+  metaInfo: {
+    title: 'GreenMar Environnement',
+    titleTemplate: '%s | NETTOYAGE INDUSTRIEL',
+    meta: [
+      {
+        hid: 'descriptionNETTOYAGEINDUSTRIEL',
+        name: 'description',
+        content: 'GreenMar Environnement, NETTOYAGE INDUSTRIEL',
+      },
+    ],
+  },
+}
+</script>

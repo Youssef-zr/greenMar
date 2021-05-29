@@ -1930,6 +1930,312 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/aPropos.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/aPropos.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  metaInfo: {
+    title: 'GreenMar Environnement',
+    titleTemplate: '%s | A Propos',
+    meta: [{
+      hid: 'descriptionPropos',
+      name: 'description',
+      content: 'GreenMar Environnement,A Propos'
+    }]
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/contact.vue?vue&type=script&lang=js&":
 /*!************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/contact.vue?vue&type=script&lang=js& ***!
@@ -2298,6 +2604,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
+  metaInfo: {
+    title: 'GreenMar Environnement',
+    titleTemplate: '%s | Contact',
+    meta: [{
+      hid: 'descriptionContact',
+      name: 'description',
+      content: 'GreenMar Environnement,contact'
+    }]
+  },
   data: function data() {
     return {
       loading: false,
@@ -2786,6 +3101,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
+  metaInfo: {
+    title: 'GreenMar Environnement',
+    titleTemplate: '%s',
+    meta: [{
+      hid: 'descriptionHome',
+      name: 'description',
+      content: 'GreenMar Environnement,Home'
+    }]
+  },
   mounted: function mounted() {
     var _this = this;
 
@@ -2850,6 +3174,727 @@ __webpack_require__.r(__webpack_exports__);
         });
       }
     }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/not-found.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/not-found.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  metaInfo: {
+    title: 'GreenMar Environnement',
+    titleTemplate: '%s | Not Found',
+    meta: [{
+      hid: 'descriptionNotFound',
+      name: 'description',
+      content: 'GreenMar Environnement,Not Found'
+    }]
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/recycling.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/recycling.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  metaInfo: {
+    title: 'GreenMar Environnement',
+    titleTemplate: '%s | Gestion Des Dechets',
+    meta: [{
+      hid: 'descriptionGestionDesDechets',
+      name: 'description',
+      content: 'GreenMar Environnement,Gestion Des Dechets'
+    }]
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/recycling2.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/recycling2.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  metaInfo: {
+    title: 'GreenMar Environnement',
+    titleTemplate: '%s | NETTOYAGE INDUSTRIEL',
+    meta: [{
+      hid: 'descriptionNETTOYAGEINDUSTRIEL',
+      name: 'description',
+      content: 'GreenMar Environnement, NETTOYAGE INDUSTRIEL'
+    }]
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/services.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/pages/services.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  metaInfo: {
+    title: 'GreenMar Environnement',
+    titleTemplate: '%s | Services',
+    meta: [{
+      hid: 'descriptionServices',
+      name: 'description',
+      content: 'GreenMar Environnement,Services'
+    }]
   }
 });
 
@@ -30247,11 +31292,7 @@ var render = function() {
               1
             ),
             _vm._v(" "),
-            _c("li", [
-              _vm._v(
-                "\r\n                Gestion Des Dechets\r\n              "
-              )
-            ])
+            _c("li", [_vm._v("\n            Gestion Des Dechets\n          ")])
           ])
         ])
       ])
@@ -30270,7 +31311,7 @@ var render = function() {
             _c(
               "router-link",
               { staticClass: "thm-btn style-3", attrs: { to: "/contact" } },
-              [_vm._v("CONTACTEZ-NOUS")]
+              [_vm._v("\n          CONTACTEZ-NOUS\n        ")]
             )
           ],
           1
@@ -30325,7 +31366,7 @@ var staticRenderFns = [
                     },
                     [
                       _vm._v(
-                        "\r\n                    COLLECTE, TRANSPORT, RECYCLAGE ET ELIMINATION DE TOUT TYPE DE\r\n                    DECHET\r\n                "
+                        "\n              COLLECTE, TRANSPORT, RECYCLAGE ET ELIMINATION DE TOUT TYPE DE\n              DECHET\n            "
                       )
                     ]
                   ),
@@ -30346,7 +31387,7 @@ var staticRenderFns = [
                         { staticClass: "text-green mb-10 mobile-font-18" },
                         [
                           _vm._v(
-                            "\r\n                        DESTRUCTION DES PRODUITS DES MARQUES\r\n                    "
+                            "\n                  DESTRUCTION DES PRODUITS DES MARQUES\n                "
                           )
                         ]
                       ),
@@ -30354,7 +31395,7 @@ var staticRenderFns = [
                       _c("div", { staticClass: "text" }, [
                         _c("p", { staticClass: "text-dark" }, [
                           _vm._v(
-                            "\r\n                        Les produits de votre entreprise qui ne respectent pas\r\n                        les normes ou les exigences de l’entreprise constituent\r\n                        une menace s’ils ne sont pas éliminés de manière\r\n                        sécurisé et documenté, GREENMAR propose des services de\r\n                        destruction de produits rendant les matériaux et\r\n                        supports inutilisables et irrécupérables.\r\n                        "
+                            "\n                    Les produits de votre entreprise qui ne respectent pas les\n                    normes ou les exigences de l’entreprise constituent une\n                    menace s’ils ne sont pas éliminés de manière sécurisé et\n                    documenté, GREENMAR propose des services de destruction de\n                    produits rendant les matériaux et supports inutilisables\n                    et irrécupérables.\n                  "
                           )
                         ])
                       ])
@@ -30377,14 +31418,18 @@ var staticRenderFns = [
                       [
                         _c(
                           "h4",
-                          { staticClass: "text-green mb-10  mobile-font-18" },
-                          [_vm._v("DECHETS DANGEREUX")]
+                          { staticClass: "text-green mb-10 mobile-font-18" },
+                          [
+                            _vm._v(
+                              "\n                  DECHETS DANGEREUX\n                "
+                            )
+                          ]
                         ),
                         _vm._v(" "),
                         _c("div", { staticClass: "text" }, [
                           _c("p", { staticClass: "text-dark" }, [
                             _vm._v(
-                              "\r\n                        Un Processus Complet De Gestion Des Déchets Dangereux :\r\n                        Personnels Formés En Matière De Gestion Des Déchets\r\n                        Dangereux, Camions Et Centres D’élimination Autorisés\r\n                        Par Le Ministère De L’environnement, Et Une Traçabilité\r\n                        Conforme À La Réglementation.\r\n                        "
+                              "\n                    Un Processus Complet De Gestion Des Déchets Dangereux :\n                    Personnels Formés En Matière De Gestion Des Déchets\n                    Dangereux, Camions Et Centres D’élimination Autorisés Par\n                    Le Ministère De L’environnement, Et Une Traçabilité\n                    Conforme À La Réglementation.\n                  "
                             )
                           ])
                         ])
@@ -30411,7 +31456,7 @@ var staticRenderFns = [
                     _c("div", { staticClass: "text" }, [
                       _c("p", { staticClass: "text-dark" }, [
                         _vm._v(
-                          "\r\n                        GreenMar vous aide à récupérer et à détourner les\r\n                        matériaux réutilisables de votre flux de déchets et à\r\n                        les orienter vers de nouveau objectifs, tels que la\r\n                        fabrication des nouveaux produits (recyclage) ou les\r\n                        convertir en énergie (valorisation énergétique)\r\n                        "
+                          "\n                  GreenMar vous aide à récupérer et à détourner les matériaux\n                  réutilisables de votre flux de déchets et à les orienter\n                  vers de nouveau objectifs, tels que la fabrication des\n                  nouveaux produits (recyclage) ou les convertir en énergie\n                  (valorisation énergétique)\n                "
                         )
                       ])
                     ])
@@ -30436,13 +31481,13 @@ var staticRenderFns = [
                         _c("div", { staticClass: "col-md-6 mb-sm-80" }, [
                           _c("div", { staticClass: "service-item center" }, [
                             _c("div", { staticClass: "icon-box" }, [
-                              _c("span", { staticClass: "fa fa-leaf " })
+                              _c("span", { staticClass: "fa fa-leaf" })
                             ]),
                             _vm._v(" "),
                             _c("h5", { staticClass: "mobile-font text-dark" }, [
                               _c("b", { staticClass: "mobile-font-18" }, [
                                 _vm._v(
-                                  "\r\n                                    NETTOYAGE INDUSTRIEL\r\n                                "
+                                  "\n                          NETTOYAGE INDUSTRIEL\n                        "
                                 )
                               ])
                             ])
@@ -30458,7 +31503,7 @@ var staticRenderFns = [
                             _c("h5", { staticClass: "mobile-font text-dark" }, [
                               _c("b", { staticClass: "mobile-font-18" }, [
                                 _vm._v(
-                                  "\r\n                                    CONSULTATION ENVIRONNMENTALE\r\n                                "
+                                  "\n                          CONSULTATION ENVIRONNMENTALE\n                        "
                                 )
                               ])
                             ])
@@ -30476,14 +31521,14 @@ var staticRenderFns = [
                             _c("h5", { staticClass: "mobile-font text-dark" }, [
                               _c("b", { staticClass: "mobile-font-18" }, [
                                 _vm._v(
-                                  "\r\n                                    RECYCLAGE\r\n                                "
+                                  "\n                          RECYCLAGE\n                        "
                                 )
                               ])
                             ])
                           ])
                         ]),
                         _vm._v(" "),
-                        _c("div", { staticClass: "col-md-6 " }, [
+                        _c("div", { staticClass: "col-md-6" }, [
                           _c("div", { staticClass: "service-item center" }, [
                             _c("div", { staticClass: "icon-box" }, [
                               _c("span", { staticClass: "fa fa-leaf" })
@@ -30492,7 +31537,7 @@ var staticRenderFns = [
                             _c("h5", { staticClass: "mobile-font text-dark" }, [
                               _c("b", { staticClass: "mobile-font-18" }, [
                                 _vm._v(
-                                  "\r\n                                    EQUIPEMENTS DE GESTION DES DÉCHETS\r\n                                "
+                                  "\n                          EQUIPEMENTS DE GESTION DES DÉCHETS\n                        "
                                 )
                               ])
                             ])
@@ -30516,7 +31561,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "float_left" }, [
       _c("h4", { staticClass: "mobile-font-18" }, [
         _vm._v(
-          "\r\n            Sur le point de mise en place un Système de Management Environnemental ?\r\n        "
+          "\n          Sur le point de mise en place un Système de Management\n          Environnemental ?\n        "
         )
       ])
     ])
@@ -48761,17 +49806,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _aPropos_vue_vue_type_template_id_56150242___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./aPropos.vue?vue&type=template&id=56150242& */ "./resources/js/components/pages/aPropos.vue?vue&type=template&id=56150242&");
-/* harmony import */ var _aPropos_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./aPropos.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/pages/aPropos.vue?vue&type=style&index=0&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _aPropos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./aPropos.vue?vue&type=script&lang=js& */ "./resources/js/components/pages/aPropos.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _aPropos_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./aPropos.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/pages/aPropos.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-var script = {}
+
+
 
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  script,
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _aPropos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _aPropos_vue_vue_type_template_id_56150242___WEBPACK_IMPORTED_MODULE_0__["render"],
   _aPropos_vue_vue_type_template_id_56150242___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
@@ -48785,6 +49832,20 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 if (false) { var api; }
 component.options.__file = "resources/js/components/pages/aPropos.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/aPropos.vue?vue&type=script&lang=js&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/pages/aPropos.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_aPropos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./aPropos.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/aPropos.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_aPropos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -49006,17 +50067,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _not_found_vue_vue_type_template_id_6a1ab982___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./not-found.vue?vue&type=template&id=6a1ab982& */ "./resources/js/components/pages/not-found.vue?vue&type=template&id=6a1ab982&");
-/* harmony import */ var _not_found_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./not-found.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/components/pages/not-found.vue?vue&type=style&index=0&lang=scss&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _not_found_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./not-found.vue?vue&type=script&lang=js& */ "./resources/js/components/pages/not-found.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _not_found_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./not-found.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/components/pages/not-found.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-var script = {}
+
+
 
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  script,
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _not_found_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _not_found_vue_vue_type_template_id_6a1ab982___WEBPACK_IMPORTED_MODULE_0__["render"],
   _not_found_vue_vue_type_template_id_6a1ab982___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
@@ -49030,6 +50093,20 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 if (false) { var api; }
 component.options.__file = "resources/js/components/pages/not-found.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/not-found.vue?vue&type=script&lang=js&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/pages/not-found.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_not_found_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./not-found.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/not-found.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_not_found_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -49077,15 +50154,17 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _recycling_vue_vue_type_template_id_0ac2c00a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./recycling.vue?vue&type=template&id=0ac2c00a& */ "./resources/js/components/pages/recycling.vue?vue&type=template&id=0ac2c00a&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _recycling_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./recycling.vue?vue&type=script&lang=js& */ "./resources/js/components/pages/recycling.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-var script = {}
+
+
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _recycling_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _recycling_vue_vue_type_template_id_0ac2c00a___WEBPACK_IMPORTED_MODULE_0__["render"],
   _recycling_vue_vue_type_template_id_0ac2c00a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
@@ -49099,6 +50178,20 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 if (false) { var api; }
 component.options.__file = "resources/js/components/pages/recycling.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/recycling.vue?vue&type=script&lang=js&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/pages/recycling.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_recycling_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./recycling.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/recycling.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_recycling_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -49130,17 +50223,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _recycling2_vue_vue_type_template_id_4dacea98___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./recycling2.vue?vue&type=template&id=4dacea98& */ "./resources/js/components/pages/recycling2.vue?vue&type=template&id=4dacea98&");
-/* harmony import */ var _recycling2_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./recycling2.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/pages/recycling2.vue?vue&type=style&index=0&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _recycling2_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./recycling2.vue?vue&type=script&lang=js& */ "./resources/js/components/pages/recycling2.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _recycling2_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./recycling2.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/pages/recycling2.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-var script = {}
+
+
 
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  script,
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _recycling2_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _recycling2_vue_vue_type_template_id_4dacea98___WEBPACK_IMPORTED_MODULE_0__["render"],
   _recycling2_vue_vue_type_template_id_4dacea98___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
@@ -49154,6 +50249,20 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 if (false) { var api; }
 component.options.__file = "resources/js/components/pages/recycling2.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/recycling2.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/components/pages/recycling2.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_recycling2_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./recycling2.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/recycling2.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_recycling2_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -49201,15 +50310,17 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _services_vue_vue_type_template_id_55013e58___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./services.vue?vue&type=template&id=55013e58& */ "./resources/js/components/pages/services.vue?vue&type=template&id=55013e58&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _services_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./services.vue?vue&type=script&lang=js& */ "./resources/js/components/pages/services.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-var script = {}
+
+
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _services_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _services_vue_vue_type_template_id_55013e58___WEBPACK_IMPORTED_MODULE_0__["render"],
   _services_vue_vue_type_template_id_55013e58___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
@@ -49223,6 +50334,20 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 if (false) { var api; }
 component.options.__file = "resources/js/components/pages/services.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/pages/services.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/pages/services.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_services_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./services.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/pages/services.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_services_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 

@@ -40,3 +40,19 @@
   }
 }
 </style>
+
+<script>
+export default {
+   metaInfo: {
+    title: 'GreenMar Environnement',
+    titleTemplate: '%s | Not Found',
+    meta: [
+      {
+        hid: 'descriptionNotFound',
+        name: 'description',
+        content: 'GreenMar Environnement,Not Found',
+      },
+    ],
+  },
+}
+</script>
