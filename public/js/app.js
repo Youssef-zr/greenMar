@@ -2296,6 +2296,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2325,7 +2326,7 @@ __webpack_require__.r(__webpack_exports__);
 
       e.preventDefault();
       this.loading = true;
-      this.form.post('/api/green/sendEmail').then(function (res) {
+      this.form.post('http://greenmar.herokuapp.com/api/green/sendEmail').then(function (res) {
         _this.messages.success.msg = res.data.success;
         _this.messages.success.status = true;
         setTimeout(function () {
@@ -2885,7 +2886,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".default-form-area .overlay {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: #8ec63f91;\n  z-index: 4;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.default-form-area .overlay i {\n  color: #fff;\n}\n.messages {\n  position: fixed;\n  top: 10px;\n  right: 10px;\n  z-index: 9999999;\n}\n.messages .alert-success {\n  color: #fff;\n  background: #8dc63f;\n}\n.messages .alert-danger {\n  color: #fff;\n  background: #ee5253;\n}\n.messages .alert {\n  padding: 8px 8px 10px !important;\n}\n.has-error .form-control {\n  border-color: #ee5253 !important;\n}\n.has-error .checkbox,\n.has-error .checkbox-inline,\n.has-error .control-label,\n.has-error .help-block,\n.has-error .radio,\n.has-error .radio-inline,\n.has-error.checkbox label,\n.has-error.checkbox-inline label,\n.has-error.radio label,\n.has-error.radio-inline label {\n  color: #ee5253 !important;\n}", ""]);
+exports.push([module.i, ".default-form-area {\n  position: relative;\n}\n.default-form-area .overlay {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: #8ec63f91;\n  z-index: 4;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.default-form-area .overlay i {\n  color: #fff;\n}\n.messages {\n  position: fixed;\n  top: 10px;\n  right: 10px;\n  z-index: 9999999;\n}\n.messages .alert-success {\n  color: #fff;\n  background: #8dc63f;\n}\n.messages .alert-danger {\n  color: #fff;\n  background: #ee5253;\n}\n.messages .alert {\n  padding: 8px 8px 10px !important;\n}\n.has-error .form-control {\n  border-color: #ee5253 !important;\n}\n.has-error .checkbox,\n.has-error .checkbox-inline,\n.has-error .control-label,\n.has-error .help-block,\n.has-error .radio,\n.has-error .radio-inline,\n.has-error.checkbox label,\n.has-error.checkbox-inline label,\n.has-error.radio label,\n.has-error.radio-inline label {\n  color: #ee5253 !important;\n}", ""]);
 
 // exports
 
@@ -29198,7 +29199,7 @@ var staticRenderFns = [
       [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "box" }, [
-            _c("h1", [_vm._v("contacter nous")])
+            _c("h1", [_vm._v("contactez nous")])
           ])
         ])
       ]

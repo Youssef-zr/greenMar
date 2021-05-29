@@ -6,7 +6,7 @@
     >
       <div class="container">
         <div class="box">
-          <h1>contacter nous</h1>
+          <h1>contactez nous</h1>
         </div>
       </div>
     </div>
@@ -302,6 +302,7 @@
 
 <style lang="scss">
 .default-form-area {
+  position: relative;
   .overlay {
     position: absolute;
     top: 0;
@@ -386,7 +387,7 @@ export default {
       this.loading = true
 
       this.form
-        .post('/api/green/sendEmail')
+        .post('http://greenmar.herokuapp.com/api/green/sendEmail')
         .then((res) => {
           this.messages.success.msg = res.data.success
           this.messages.success.status = true
