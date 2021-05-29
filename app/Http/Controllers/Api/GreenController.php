@@ -35,7 +35,8 @@ class GreenController extends Controller
 
         $data = $this->validate($request, $rules, [], $niceNames);
 
-        Mail::to(['yn-neinaa@hotmail.com',"contact@greenmar.ma"])->send(new sendMail($data));
+        // Mail::to(['yn-neinaa@hotmail.com',"contact@greenmar.ma"])->send(new sendMail($data));
+        Mail::to(['yn-neinaa@hotmail.com',"ysf.neinaa@gmail.com"])->send(new sendMail($data));
         return response()->json(['success' => "Le message a été envoyé avec succès ^_^"]);
 
     }
