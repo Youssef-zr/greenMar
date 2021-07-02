@@ -3700,6 +3700,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 
 /* harmony default export */ __webpack_exports__["default"] = ({
+  metaInfo: {
+    title: 'GreenMar Environnement',
+    titleTemplate: '%s | blog posts',
+    meta: [{
+      hid: 'descriptionHome',
+      name: 'description',
+      content: 'GreenMar Environnement,blog'
+    }]
+  },
   components: {
     blogs: _blogsComponent_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
   }
