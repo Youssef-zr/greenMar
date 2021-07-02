@@ -314,8 +314,8 @@
         <div class="section-title center">
           <h2 style="color: #fff;">POSEZ-NOUS VOS QUESTIONS</h2>
         </div>
-        <div class="row clearfix">
-          <div class="counter-outer clearfix">
+        <div class="counter-outer clearfix">
+          <div class="row clearfix">
             <!--Column-->
             <article
               class="column counter-column col-md-3 col-sm-12 col-xs-12 wow fadeIn"
@@ -425,9 +425,11 @@
 .section-title {
   margin-bottom: 20px;
 }
-body{
-
-    font-size: 1.4em !important
+body {
+  font-size: 1.4em !important;
+}
+.urgent-cause2 .content {
+  border: none;
 }
 </style>
 
@@ -444,7 +446,7 @@ export default {
       },
     ],
   },
- 
+
   mounted() {
     setTimeout(() => {
       this.revolutionSliderActiver()

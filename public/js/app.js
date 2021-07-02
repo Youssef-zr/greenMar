@@ -3316,6 +3316,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   metaInfo: {
     title: 'GreenMar Environnement',
@@ -4896,7 +4898,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.section-title {\r\n  margin-bottom: 20px;\n}\nbody{\r\n\r\n    font-size: 1.4em !important\n}\r\n", ""]);
+exports.push([module.i, "\n.section-title {\r\n  margin-bottom: 20px;\n}\nbody {\r\n  font-size: 1.4em !important;\n}\n.urgent-cause2 .content {\r\n  border: none;\n}\r\n", ""]);
 
 // exports
 
@@ -32453,8 +32455,8 @@ var staticRenderFns = [
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "row clearfix" }, [
-            _c("div", { staticClass: "counter-outer clearfix" }, [
+          _c("div", { staticClass: "counter-outer clearfix" }, [
+            _c("div", { staticClass: "row clearfix" }, [
               _c(
                 "article",
                 {
