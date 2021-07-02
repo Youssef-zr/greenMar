@@ -56,7 +56,9 @@
             >
               <div class="slide-content-box">
                 <div class="button">
-                  <router-link to="/service" class="thm-btn">lire plus</router-link>
+                  <router-link to="/service" class="thm-btn">
+                    lire plus
+                  </router-link>
                 </div>
               </div>
             </div>
@@ -76,7 +78,9 @@
             >
               <div class="slide-content-box">
                 <div class="button">
-                    <router-link class="thm-btn style-3" to="/service">s'impliquer</router-link>
+                  <router-link class="thm-btn style-3" to="/service">
+                    s'impliquer
+                  </router-link>
                 </div>
               </div>
             </div>
@@ -133,7 +137,9 @@
             >
               <div class="slide-content-box">
                 <div class="button">
-                  <router-link to="/service" class="thm-btn">lire plus</router-link>
+                  <router-link to="/service" class="thm-btn">
+                    lire plus
+                  </router-link>
                 </div>
               </div>
             </div>
@@ -153,7 +159,9 @@
             >
               <div class="slide-content-box">
                 <div class="button">
-                    <router-link class="thm-btn style-3" to="/service">s'impliquer</router-link>
+                  <router-link class="thm-btn style-3" to="/service">
+                    s'impliquer
+                  </router-link>
                 </div>
               </div>
             </div>
@@ -210,7 +218,9 @@
             >
               <div class="slide-content-box">
                 <div class="button">
-                  <router-link to="/service" class="thm-btn">lire plus</router-link>
+                  <router-link to="/service" class="thm-btn">
+                    lire plus
+                  </router-link>
                 </div>
               </div>
             </div>
@@ -230,7 +240,9 @@
             >
               <div class="slide-content-box">
                 <div class="button">
-                  <router-link class="thm-btn style-3" to="/service">s'impliquer</router-link>
+                  <router-link class="thm-btn style-3" to="/service">
+                    s'impliquer
+                  </router-link>
                 </div>
               </div>
             </div>
@@ -242,11 +254,14 @@
 
     <section class="service sec-padd3">
       <div class="container">
-        <div class="section-title center">
+        <div
+          class="section-title center"
+          style="margin-bottom: 50px !important;"
+        >
           <h2><span class="thm-color">DES SOLUTIONS ECOLOGIQUES</span></h2>
         </div>
         <div class="row">
-          <div class="col-md-3 col-sm-6 col-x-12">
+          <div class="col-md-3 col-sm-6 col-x-12 mb-50">
             <div class="service-item center">
               <div class="icon-box">
                 <span class="icon-people3"></span>
@@ -255,7 +270,7 @@
               <p>Une Équipe d’experts vous accompagne.</p>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6 col-x-12">
+          <div class="col-md-3 col-sm-6 col-x-12 mb-50">
             <div class="service-item center">
               <div class="icon-box">
                 <span class="fa fa-check-square"></span>
@@ -264,7 +279,7 @@
               <p>Un Processus conforme à la réglementation en vigueur.</p>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6 col-x-12">
+          <div class="col-md-3 col-sm-6 col-x-12 mb-50">
             <div class="service-item center">
               <div class="icon-box">
                 <span class="icon-nature-1"></span>
@@ -278,7 +293,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6 col-x-12">
+          <div class="col-md-3 col-sm-6 col-x-12 mb-50">
             <div class="service-item center">
               <div class="icon-box">
                 <span class="fa fa-shield"></span>
@@ -368,17 +383,17 @@
           <p>Découvrez tout ce qu’on peut faire ensemble !</p>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 mb-10">
             <figure class="img-box">
               <img src="images/resource/9.jpg" alt="" />
             </figure>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mb-10">
             <figure class="img-box">
               <img src="images/resource/10.jpg" alt="" />
             </figure>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mb-10">
             <figure class="img-box">
               <img src="images/resource/11.jpg" alt="" />
             </figure>
@@ -406,16 +421,19 @@
     </section>
   </div>
 </template>
-
 <style lang="css">
 .section-title {
   margin-bottom: 20px;
+}
+body{
+
+    font-size: 1.4em !important
 }
 </style>
 
 <script>
 export default {
-   metaInfo: {
+  metaInfo: {
     title: 'GreenMar Environnement',
     titleTemplate: '%s',
     meta: [
@@ -426,11 +444,11 @@ export default {
       },
     ],
   },
+ 
   mounted() {
-      setTimeout(()=>{
-          this.revolutionSliderActiver()
-      },500)
-
+    setTimeout(() => {
+      this.revolutionSliderActiver()
+    }, 500)
   },
   methods: {
     stopPrevent(e) {

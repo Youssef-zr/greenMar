@@ -40,7 +40,7 @@
         <div class="row">
           <div class="col-md-3">
             <div class="main-logo">
-              <router-link to="/"><img src="images/logo/logo.png" alt="" /></router-link>
+              <router-link to="/"><img src="/images/logo/logo.png" alt="" /></router-link>
             </div>
           </div>
           <div class="col-md-9 menu-column">
@@ -49,10 +49,11 @@
                 <li>
                   <router-link to="/service"><i class="fa fa-cogs text-green"></i> Services</router-link>
                   <ul class="dropdown">
-                    <li><router-link to="/recycling"><i class="icon-shapes text-green"></i> GESTION DES DECHETS</router-link></li>
-                    <li><router-link to="/recycling2"><i class="icon-shapes text-green"></i> NETTOYAGE INDUSTRIEL</router-link></li>
+                    <li><router-link to="/recyclage"><i class="icon-shapes text-green"></i> GESTION DES DECHETS</router-link></li>
+                    <li><router-link to="/recyclage2"><i class="icon-shapes text-green"></i> NETTOYAGE INDUSTRIEL</router-link></li>
                   </ul>
                 </li>
+                <li><router-link to="/blog"><i class="fa fa-tags text-green"></i> Blog</router-link></li>
                 <li><router-link to="/contact"><i class="fa fa-phone text-green"></i> Contacter</router-link></li>
                 <li><router-link to="/aPropos"><i class="fa fa-question-circle text-green"></i> A Propos</router-link></li>
               </ul>

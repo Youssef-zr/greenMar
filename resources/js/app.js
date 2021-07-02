@@ -10,6 +10,8 @@ import service from "./components/pages/services";
 import recycling from "./components/pages/recycling";
 import recycling2 from "./components/pages/recycling2";
 import aPropos from "./components/pages/aPropos";
+import blog from "./components/pages/posts";
+import articleDetails from "./components/pages/post";
 import contact from "./components/pages/contact";
 import notFound from "./components/pages/not-found";
 
@@ -25,19 +27,29 @@ let routes = [
     component: service
   },
   {
-    path: "/recycling",
-    name: "recycling",
+    path: "/recyclage",
+    name: "recyclage",
     component: recycling
   },
   {
-    path: "/recycling2",
-    name: "recycling2",
+    path: "/recyclage2",
+    name: "recyclage2",
     component: recycling2
   },
   {
     path: "/aPropos",
     name: "aPropos",
     component: aPropos
+  },
+  {
+    path: "/blog",
+    name: "blog",
+    component: blog
+  },
+  {
+    path: "/articleDetails/:id",
+    name: "articleDetails",
+    component: articleDetails
   },
   {
     path: "/contact",
@@ -79,6 +91,8 @@ Vue.use(VueMeta, {
   refreshOnceOnNavigation: true
 });
 
+// pagination
+Vue.component('pagination', require('laravel-vue-pagination'));
 
 const app = new Vue({
   el: "#app",

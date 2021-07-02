@@ -12,13 +12,16 @@ use Illuminate\Support\Facades\Route;
 | routes are loaded by the RouteServiceProvider within a group which
 | is assigned the "api" middleware group. Enjoy building your API!
 |
-*/
+ */
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-
 Route::group(['prefix' => 'green', "middleware" => "api", 'namespace' => "Api"], function () {
     Route::post('sendEmail', "GreenController@sendEmail");
+    // all articles
+    Route::get('getArticles', "ArticleController@get_articles");
+    // one articles
+    Route::get('getArticle/{id}', "ArticleController@get_article");
 });

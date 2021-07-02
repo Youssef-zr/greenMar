@@ -17,7 +17,7 @@ class GreenController extends Controller
             "email" => "required|email|string",
             "phone" => 'required|min:10|max:12',
             'subject' => 'min:5|max:120',
-            "msg" => 'min:5|max:300',
+            "msg" => 'min:5|max:300'
         ];
 
         $niceNames = [

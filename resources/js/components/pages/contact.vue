@@ -419,7 +419,7 @@ export default {
             this.messages.error.status = true
 
             if (err.response.status == 422) {
-              this.messages.error.msg = 'La donnée est invalide !!'
+              this.messages.error.msg = 'Les informations saisies sont incorrectes !!'
             } else if (err.response.status == 500) {
               this.messages.error.msg =
                 'Erreur Du Serveur Veuillez Réessayer Plus Tard !!'

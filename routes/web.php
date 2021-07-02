@@ -17,6 +17,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//  dashboard routes
+Auth::routes(['register'=>false]);
+
+// admin panel
+Route::group(['prefix'=>"admin",'middleware'=>'auth'],function(){
+    Route::get('/logout', function () {
+        Auth::logout();
+        return redirect(url('/'));
+    });
+    Route::get('/','AdminController@index');
+    Route::resource('articles', "ArticleController");
+});
 
 // see to laravel we well use vueJs route to catch the error 404 when refresh page
 Route::get('{any}', function () {
