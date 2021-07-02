@@ -3702,7 +3702,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   metaInfo: {
     title: 'GreenMar Environnement',
-    titleTemplate: '%s | blog posts',
+    titleTemplate: '%s | blog',
     meta: [{
       hid: 'descriptionHome',
       name: 'description',

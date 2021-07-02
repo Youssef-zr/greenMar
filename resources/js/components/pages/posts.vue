@@ -56,7 +56,7 @@ import blogs from './blogsComponent.vue'
 export default {
     metaInfo: {
     title: 'GreenMar Environnement',
-    titleTemplate: '%s | blog posts',
+    titleTemplate: '%s | blog',
     meta: [
       {
         hid: 'descriptionHome',
