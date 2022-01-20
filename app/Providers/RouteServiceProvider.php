@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Route;
 
 class RouteServiceProvider extends ServiceProvider
@@ -42,7 +43,7 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function map()
     {
-        \Config::set("filesystems.disks.public.url", url('storage'));
+        Config::set("filesystems.disks.public.url", url(''));
         
         $this->mapApiRoutes();
 

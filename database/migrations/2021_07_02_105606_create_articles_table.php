@@ -17,7 +17,7 @@ class CreateArticlesTable extends Migration
             $table->id();
             $table->text('title');
             $table->string('summary');
-            $table->string('image')->nullable()->default('storage/images/articles/default.png');
+            $table->string('image')->nullable()->default('website_images/articles/default.png');
             $table->text('content');
             $table->integer('published')->nullable()->default(0);
             $table->timestamps();

@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Article;
 use Illuminate\Http\Request;
+use Illuminate\Support\Arr;
+use Intervention\Image\Facades\Image;
 
 class ArticleController extends Controller
 {
@@ -66,10 +68,10 @@ class ArticleController extends Controller
             // get the extension of image
             $ext = $request->File('image')->getClientOriginalExtension();
 
-            $image = 'storage/images/articles/' . $new->id . '/' . time() . '.' . $ext;
+            $image = 'website_images/articles/' . $new->id . '/' . time() . '.' . $ext;
 
             // create new folder with the name of video id
-            mkdir(public_path('storage/images/articles/' . $new->id));
+            mkdir(public_path('website_images/articles/' . $new->id));
 
             Image::make($request->image)->resize(380, 337)->save(public_path($image));
 
@@ -135,25 +137,25 @@ class ArticleController extends Controller
 
             $oldImage = public_path($article->image);
 
-            if (file_exists($oldImage) and $article->image != 'storage/images/articles/default.png') { // remove old image
+            if (file_exists($oldImage) and $article->image != 'website_images/articles/default.png') { // remove old image
                 @unlink($oldImage);
             }
 
             // get the extension of image
             $ext = $request->File('image')->getClientOriginalExtension();
 
-            $data['image'] = 'storage/images/articles/' . $article->id . '/' . time() . '.' . $ext;
+            $data['image'] = 'website_images/articles/' . $article->id . '/' . time() . '.' . $ext;
 
-            if (!is_dir(public_path('storage/images/articles/' . $article->id))) {
+            if (!is_dir(public_path('website_images/articles/' . $article->id))) {
                 // create new folder with the name of video id
-                mkdir(public_path('storage/images/articles/' . $article->id));
+                mkdir(public_path('website_images/articles/' . $article->id));
             }
 
-            \Image::make($request->image)->resize(380, 337)->save(public_path($data['image']));
+            Image::make($request->image)->resize(380, 337)->save(public_path($data['image']));
 
         }
 
-        $article->fill(\Arr::except($data, ["ckeditor"]))->save();
+        $article->fill(Arr::except($data, ["ckeditor"]))->save();
 
         $request->session()->flash('msgSuccess', 'تم تعديل المقال بنجاح');
         return redirect(adminUrl('articles'));
@@ -169,11 +171,11 @@ class ArticleController extends Controller
     {
         $image_path = public_path($article->image);
 
-        if (file_exists($image_path) && $article->image != "storage/images/articles/default.png") {
+        if (file_exists($image_path) && $article->image != "website_images/articles/default.png") {
             unlink($image_path);
         }
 
-        $imgDir = public_path("storage/images/articles/" . $article->id);
+        $imgDir = public_path("website_images/articles/" . $article->id);
 
         if (is_dir($imgDir)) {
             rmdir($imgDir);

@@ -78,7 +78,7 @@
                     @if (isset($article))
                         <img src="{{ image_path($article->image) }}" alt="post icon" srcset="" class="img-thumbnail image-preview"
                     @else
-                        <img src="{{ \Storage::url('images/articles/default.png') }}" alt="article icon" srcset="" class="img-thumbnail image-preview"
+                        <img src="{{ \Storage::url('website_images/articles/default.png') }}" alt="article icon" srcset="" class="img-thumbnail image-preview"
                     @endif
                     style="width:105px;height:105px;margin-top:16px"
                     >
